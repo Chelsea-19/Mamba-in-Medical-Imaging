@@ -74,7 +74,7 @@ This repository corresponds to our survey paper:
 | **DenoMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2409.13094) | [Link](https://github.com/icon-lab/DenoMamba?tab=readme-ov-file) | Image denoising framework. |
 | **MMR-Mamba** | MIA 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S1361841525000969) | [Link](https://github.com/zoujing925/MMR-Mamba?tab=readme-ov-file) | Multi-modal MRI reconstruction. |
 | **UltrasOM** | CMPB 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub) | None | Ultrasound video analysis & motion estimation. |
-| **UltrasODM** | AAAI 2026 | [Link]([https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub](https://arxiv.org/html/2512.07756v1)) | [Link](https://github.com/AnandMayank/UltrasODM) | Ultrasound video analysis & motion estimation. |
+| **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Ultrasound video analysis & motion estimation. |
 
 <a name="registration"></a>
 ## 5. Registration
