@@ -55,7 +55,10 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **MedMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.03849) | [Link](https://github.com/YubiaoYue/MedMamba) | General purpose backbone for medical classification. |
+| **CMViM** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.16520) | None | Contrastive learning aligns multimodal representations. |
+| **MamMIL** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822552) | [Link](https://github.com/Vison307/MamMIL) | Less GPU memory & Better than Transformer-based method. |
 | **MedMambaLite** | arXiv 2025 | [Link](https://arxiv.org/abs/2508.05049) | None | Lightweight version for mobile/edge devices. |
+| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
 | **XFMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/1023-Paper1773.html) | [Link](https://github.com/XZheng0427/XFMamba) | Multi-view fusion for X-ray/MRI. |
 | **GMMamba** | ICCV 2025 | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_GMMamba_Group_Masking_Mamba_for_Whole_Slide_Image_Classification_ICCV_2025_paper.html) | [Link](https://github.com/titizheng/GMMamba) | WSI analysis with position-aware mechanisms. |
 
@@ -65,10 +68,12 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
+| **MambaAD** | NeurIPS 2024 | [Link](https://lewandofskee.github.io/projects/MambaAD/) | [Link](https://github.com/lewandofskee/MambaAD) | Unsupervised anomaly detection (Global + Local). |
+| **MambaMIL** | MICCAI 2024 | [Link](https://arxiv.org/abs/2403.06800) | [Link](https://github.com/isyangshu/MambaMIL) | Effectively model long sequences and reduce computational complexity. |
+| **SP-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.02063) | [Link](https://github.com/JusperLee/SPMamba) | Self-supervised anomaly detection. |
 | **SpectMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2509.01080) | [Link](https://github.com/Tinkle01/SpectMamba) | Uses frequency domain learning for small target detection. |
 | **CellMamba** | arXiv 2025 | [Link](https://github.com/ChengAoShen/CellMamba) | [Link](https://arxiv.org/abs/2512.21803) | Dense cell detection in pathology images. |
-| **MambaAD** | NeurIPS 2024 | [Link](https://lewandofskee.github.io/projects/MambaAD/) | [Link](https://github.com/lewandofskee/MambaAD) | Unsupervised anomaly detection (Global + Local). |
-| **SP-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.02063) | [Link](https://github.com/JusperLee/SPMamba) | Self-supervised anomaly detection. |
+
 
 <a name="reconstruction--enhancement"></a>
 ## 4. Reconstruction & Enhancement
@@ -89,8 +94,8 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **VMambaMorph** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.05105) | [Link](https://github.com/ziyangwang007/VMambaMorph) | 3D deformable registration with cross-scan mechanism. |
 | **RegMamba** | MDPI 2024 | [Link](https://www.mdpi.com/2079-9292/13/16/3305) | [Link](https://github.com/Hexu00/Regmamba) | Hybrid CNN-Mamba for large deformation handling. |
+| **VMambaMorph** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.05105) | [Link](https://github.com/ziyangwang007/VMambaMorph) | 3D deformable registration with cross-scan mechanism. |
 | **MambaMorph** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.13934) | [Link](https://github.com/Guo-Stone/MambaMorph) | Efficient registration baseline. |
 | **MambaNetLK** | arXiv 2025 | [Link](https://arxiv.org/abs/2511.00260) | [Link](https://github.com/mobarakol/MambaNetLK) | Point cloud registration for surgical navigation. |
 
