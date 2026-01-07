@@ -34,12 +34,12 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Baseline 2D Mamba-UNet integration. |
-| **SegMamba** | MICCAI 2024 | [Link]() | [Link]() | [cite_start]3D Mamba with Tri-orientational Spatial Scan for volumetric data[cite: 122]. |
-| **U-Mamba** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Hybrid CNN-Mamba architecture for general 2D/3D segmentation[cite: 133]. |
-| **nnMamba** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Integration of Mamba into the nnU-Net framework[cite: 135]. |
-| **Swin-UMamba** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Highlights ImageNet pre-training for Mamba weights[cite: 134]. |
-| **Mamba-UNet** | - | [Link]() | [Link]() | [cite_start]Early exploration of VSS blocks in U-shape architecture[cite: 6]. |
-| **2DMamba** | - | [Link]() | [Link]() | [cite_start]Focused on 2D segmentation tasks[cite: 6]. |
+| **SegMamba** | MICCAI 2024 | [Link](https://papers.miccai.org/miccai-2024/676-Paper0663.html) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with Tri-orientational Spatial Scan for volumetric data. |
+| **U-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.04722) | [Link](https://github.com/bowang-lab/U-Mamba) | Hybrid CNN-Mamba architecture for general 2D/3D segmentation. |
+| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
+| **Swin-UMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.03302) | [Link](https://github.com/JiarunLiu/Swin-UMamba) | Highlights ImageNet pre-training for Mamba weights. |
+| **Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.05079) | [Link](https://github.com/ziyangwang007/Mamba-UNet) | Early exploration of VSS blocks in U-shape architecture. |
+| **2DMamba** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html) | [Link](https://github.com/AtlasAnalyticsLab/2DMamba) | Focused on 2D segmentation tasks. |
 
 <a name="classification"></a>
 ## 2. Classification
