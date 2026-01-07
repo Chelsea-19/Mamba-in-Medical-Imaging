@@ -55,12 +55,13 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **MedMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.03849) | [Link](https://github.com/YubiaoYue/MedMamba) | General purpose backbone for medical classification. |
-| **CMViM** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.16520) | None | Contrastive learning aligns multimodal representations. |
+| **CMViM** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.16520) | \ | Contrastive learning aligns multimodal representations. |
 | **MamMIL** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822552) | [Link](https://github.com/Vison307/MamMIL) | Less GPU memory & Better than Transformer-based method. |
-| **MedMambaLite** | arXiv 2025 | [Link](https://arxiv.org/abs/2508.05049) | None | Lightweight version for mobile/edge devices. |
-| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
-| **XFMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/1023-Paper1773.html) | [Link](https://github.com/XZheng0427/XFMamba) | Multi-view fusion for X-ray/MRI. |
+| **MedMambaLite** | arXiv 2025 | [Link](https://arxiv.org/abs/2508.05049) | \ | Lightweight version for mobile/edge devices. |
 | **GMMamba** | ICCV 2025 | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_GMMamba_Group_Masking_Mamba_for_Whole_Slide_Image_Classification_ICCV_2025_paper.html) | [Link](https://github.com/titizheng/GMMamba) | WSI analysis with position-aware mechanisms. |
+| **XFMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/1023-Paper1773.html) | [Link](https://github.com/XZheng0427/XFMamba) | Multi-view fusion for X-ray/MRI. |
+| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
+| **DermaMamba** | Bioengineering 2025 | [Link](https://www.mdpi.com/2306-5354/12/10/1030) | [Link](https://github.com/hnkhai25/DermoMamba) | Dual-Branch Design combining the CNN and Mamba. |
 
 <a name="detection"></a>
 ## 3. Detection
@@ -81,9 +82,11 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
+| **DenoMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2409.13094) | [Link](https://github.com/icon-lab/DenoMamba?tab=readme-ov-file) | Image denoising framework. |
+| **MambaMIR** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.18451) | \ | Dynamic weights and linear complexity. |
+| **FD-Vision Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.06378) | [Link](https://github.com/zzr-idam/FDV-NET) | Linear complexity, global receptive field. |
 | **MambaRecon** | WACV 2025 | [Link](https://openaccess.thecvf.com/content/WACV2025/html/Korkmaz_MambaRecon_MRI_Reconstruction_with_Structured_State_Space_Models_WACV_2025_paper.html) | [Link](https://github.com/yilmazkorkmaz1/MambaRecon?tab=readme-ov-file) | MRI reconstruction with linear complexity (O(N)). |
 | **CT-Mamba** | CMIG 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0895611125001041?via%3Dihub) | [Link](https://github.com/linxuan-li/CT-Mamba?tab=readme-ov-file) | Low-dose CT denoising. |
-| **DenoMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2409.13094) | [Link](https://github.com/icon-lab/DenoMamba?tab=readme-ov-file) | Image denoising framework. |
 | **MMR-Mamba** | MIA 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S1361841525000969) | [Link](https://github.com/zoujing925/MMR-Mamba?tab=readme-ov-file) | Multi-modal MRI reconstruction. |
 | **UltrasOM** | CMPB 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub) | None | Ultrasound video analysis & motion estimation. |
 | **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Ultrasound video analysis & motion estimation. |
@@ -107,8 +110,12 @@ This repository corresponds to our survey paper:
 | :--- | :--- | :--- | :--- | :--- |
 | **DiM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.14224) | [Link](https://github.com/tyshiwo1/DiM-DiffusionMamba) | Efficient high-res generation, replaces Attention in U-Net. |
 | **I2I-Mamba** | arXiv 2024 | [Link](https://arxiv.org/html/2405.14022v4) | [Link](https://github.com/icon-lab/I2I-Mamba) | Image-to-Image translation (e.g., MRI to CT). |
-| **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology report generation. |
+| **VM-DDPM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.05667) | \ | Balance structural texture consistency and maintain linear computational complexity. |
+| **MambaDFuse** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.08406) | [Link](https://github.com/Lizhe1228/MambaDFuse) | State-of-the-art (SOTA) image fusion performance, outperforming CNN and Transformer. |
+| **MD-Dose** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822581) | [Link](https://github.com/LinjieFu-U/mamba_dose) | Superior to existing methods, this method can locate the dose region of OARs. |
 | **RRG-Mamba** | IJCAI 2025 | [Link](https://www.ijcai.org/proceedings/2025/824) | [Link](https://github.com/Eleanorhxd/RRG-Mamba) | Radiology report generation. |
+| **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology report generation. |
+
 
 <a name="datasets"></a>
 ## 💽 Key Datasets
