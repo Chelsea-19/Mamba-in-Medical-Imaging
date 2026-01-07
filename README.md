@@ -88,8 +88,8 @@ This repository corresponds to our survey paper:
 | **MambaRecon** | WACV 2025 | [Link](https://openaccess.thecvf.com/content/WACV2025/html/Korkmaz_MambaRecon_MRI_Reconstruction_with_Structured_State_Space_Models_WACV_2025_paper.html) | [Link](https://github.com/yilmazkorkmaz1/MambaRecon?tab=readme-ov-file) | MRI reconstruction with linear complexity (O(N)). |
 | **CT-Mamba** | CMIG 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0895611125001041?via%3Dihub) | [Link](https://github.com/linxuan-li/CT-Mamba?tab=readme-ov-file) | Low-dose CT denoising. |
 | **MMR-Mamba** | MIA 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S1361841525000969) | [Link](https://github.com/zoujing925/MMR-Mamba?tab=readme-ov-file) | Multi-modal MRI reconstruction. |
-| **UltrasOM** | CMPB 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub) | None | Ultrasound video analysis & motion estimation. |
-| **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Ultrasound video analysis & motion estimation. |
+| **UltrasOM** | CMPB 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub) | \ | Ultrasound video analysis & motion estimation. |
+| **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Real-time detection of scanning errors and guidance for doctors to make corrections. |
 
 <a name="registration"></a>
 ## 5. Registration
