@@ -34,7 +34,6 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Baseline 2D Mamba-UNet integration. |
-| **SegMamba** | MICCAI 2024 | [Link](https://papers.miccai.org/miccai-2024/676-Paper0663.html) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with Tri-orientational Spatial Scan for volumetric data. |
 | **U-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.04722) | [Link](https://github.com/bowang-lab/U-Mamba) | Hybrid CNN-Mamba architecture for general 2D/3D segmentation. |
 | **Swin-UMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.03302) | [Link](https://github.com/JiarunLiu/Swin-UMamba) | Highlights ImageNet pre-training for Mamba weights. |
 | **Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.05079) | [Link](https://github.com/ziyangwang007/Mamba-UNet) | Early exploration of VSS blocks in U-shape architecture. |
@@ -42,6 +41,7 @@ This repository corresponds to our survey paper:
 | **LightM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05246) | [Link](https://github.com/MrBlankness/LightM-UNet) | Extremely lightweight design. |
 | **UltraLight VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.20035v1) | [Link](https://github.com/wurenkai/UltraLight-VM-UNet) | While maintaining high performance, the parameters are significantly reduced. |
 | **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Collaborative cross-supervision mechanisms enhance the performance of weak supervision. |
+| **SegMamba** | MICCAI 2024 | [Link](https://papers.miccai.org/miccai-2024/676-Paper0663.html) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with Tri-orientational Spatial Scan for volumetric data. |
 | **2DMamba** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html) | [Link](https://github.com/AtlasAnalyticsLab/2DMamba) | Focused on 2D segmentation tasks. |
 | **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
 | **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea/blob/main/README.md) | A "Global-to-Local" sequence enhancement mechanism is proposed. |
