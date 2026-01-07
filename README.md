@@ -8,23 +8,20 @@
 
 > A curated list of papers, code, and resources for **Mamba (State Space Models)** applications in **Medical Imaging**.
 
-## 📖 Introduction
+## Introduction
 
-**Mamba** (Selective State Space Model) has emerged as a promising alternative to CNNs and Transformers in medical image analysis. [cite_start]With **linear computational complexity** and **efficient long-range dependency modeling**, it addresses the bottlenecks of processing high-resolution 2D/3D medical data [cite: 4-5].
+**Mamba** (Selective State Space Model) has emerged as a promising alternative to CNNs and Transformers in medical image analysis. With **linear computational complexity** and **efficient long-range dependency modeling**, it addresses the bottlenecks of processing high-resolution 2D/3D medical data.
 
 This repository corresponds to our survey paper:
-[cite_start]**Mamba in Medical Imaging: A Comprehensive Review of the State Space Model for Efficient and Accurate Analysis** [cite: 1-2]
+**Mamba in Medical Imaging: A Comprehensive Review of the State Space Model for Efficient and Accurate Analysis** 
 
-## 📝 Change Log
-* **[202X-XX-XX]** Initial release of the Awesome List based on our survey.
-
-## 📚 Table of Contents
+## Table of Contents
 - [Segmentation](#segmentation)
 - [Classification](#classification)
 - [Detection](#detection)
-- [Reconstruction & Enhancement](#reconstruction--enhancement)
+- [Reconstruction](#reconstruction--enhancement)
 - [Registration](#registration)
-- [Generation](#generation)
+- [Generation & Multimodal](#generation)
 - [Datasets](#datasets)
 - [Citation](#citation)
 
@@ -32,11 +29,11 @@ This repository corresponds to our survey paper:
 
 <a name="segmentation"></a>
 ## 1. Segmentation
-[cite_start]*Focus: 2D/3D organ segmentation, tumor segmentation, multi-organ tasks.* [cite: 100-104]
+*Focus: 2D/3D organ segmentation, tumor segmentation, multi-organ tasks.* 
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **VM-UNet** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Baseline 2D Mamba-UNet integration[cite: 6]. |
+| **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Baseline 2D Mamba-UNet integration. |
 | **SegMamba** | MICCAI 2024 | [Link]() | [Link]() | [cite_start]3D Mamba with Tri-orientational Spatial Scan for volumetric data[cite: 122]. |
 | **U-Mamba** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Hybrid CNN-Mamba architecture for general 2D/3D segmentation[cite: 133]. |
 | **nnMamba** | arXiv 2024 | [Link]() | [Link]() | [cite_start]Integration of Mamba into the nnU-Net framework[cite: 135]. |
@@ -81,7 +78,7 @@ This repository corresponds to our survey paper:
 
 <a name="registration"></a>
 ## 5. Registration
-[cite_start]*Focus: Deformable registration, multi-modal alignment.* [cite: 223-228]
+*Focus: Deformable registration, multi-modal alignment.*
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -91,8 +88,8 @@ This repository corresponds to our survey paper:
 | **MambaNetLK** | - | [Link]() | [Link]() | [cite_start]Point cloud registration for surgical navigation[cite: 248]. |
 
 <a name="generation"></a>
-## 6. Generation
-[cite_start]*Focus: Image synthesis, Cross-modality generation, Report generation.* [cite: 253-257]
+## 6. Generation & Multimodal
+*Focus: Image synthesis, Cross-modality generation, Report generation.*
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
