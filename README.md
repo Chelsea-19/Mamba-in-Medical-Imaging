@@ -16,16 +16,29 @@ This repository corresponds to our survey paper:
 **Mamba in Medical Imaging: A Comprehensive Review of the State Space Model for Efficient and Accurate Analysis** 
 
 ## Table of Contents
+- [Fundation](#fundation)
 - [Segmentation](#segmentation)
 - [Classification](#classification)
 - [Detection](#detection)
 - [Reconstruction](#reconstruction--enhancement)
 - [Registration](#registration)
 - [Generation & Multimodal](#generation)
+- [Review Papers](#reviews)
 - [Datasets](#datasets)
 - [Citation](#citation)
 
 ---
+<a name="fundation"></a>
+## 0. Fundation
+*Focus: The original theoretical foundations and vision backbones.* 
+
+| Model | Publication | Paper | Code | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **HiPPO** | NeurIPS 2020 | 2020.08 | [Link](https://arxiv.org/abs/2008.07669) | [Link](https://github.com/HazyResearch/hippo-code) | **[Precursor]** Recurrent Memory with Optimal Polynomial Projections; the math theory behind S4/Mamba. |
+| **S4** | NeurIPS 2021 | 2021.11 | [Link](https://arxiv.org/abs/2111.00396) | [Link](https://github.com/HazyResearch/state-spaces) | **[Precursor]** Structured State Spaces for Long-Range Sequence Modeling; the first efficient SSM. |
+| **Mamba** | arXiv 2023 | 2023.12 | [Link](https://arxiv.org/abs/2312.00752) | [Link](https://github.com/state-spaces/mamba) | **[Foundation]** The original Selective State Space Model with linear complexity. |
+| **Vim** | ICML 2024 | 2024.01 | [Link](https://arxiv.org/abs/2401.09417) | [Link](https://github.com/hustvl/Vim) | **[Vision Backbone]** Vision Mamba; bidirectional blocks for visual representation. |
+| **VMamba** | arXiv 2024 | 2024.01 | [Link](https://arxiv.org/abs/2401.10166) | [Link](https://github.com/MzeroMiko/VMamba) | **[Vision Backbone]** Visual State Space Model with 2D Selective Scan (SS2D). |
 
 <a name="segmentation"></a>
 ## 1. Segmentation
@@ -120,6 +133,29 @@ This repository corresponds to our survey paper:
 | **MD-Dose** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822581) | [Link](https://github.com/LinjieFu-U/mamba_dose) | Superior to existing methods, this method can locate the dose region of OARs. |
 | **RRG-Mamba** | IJCAI 2025 | [Link](https://www.ijcai.org/proceedings/2025/824) | [Link](https://github.com/Eleanorhxd/RRG-Mamba) | Radiology report generation. |
 | **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology report generation. |
+
+<a name="reviews"></a>
+## Review Papers
+### 1) General Mamba & SSM Surveys 
+*Focus: Broad reviews of State Space Models, Mamba architectures, and Computer Vision applications.*
+
+| Title | Venue | Date | Paper | Code | Key Focus |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **State Space Models Survey** | arXiv | 2024.01 | [Link](https://arxiv.org/abs/2401.13739) | [Link](https://github.com/MzeroMiko/State-Space-Model-Survey) | Early comprehensive review of SSMs as an alternative to Transformers. |
+| **Visual Mamba Survey** | arXiv | 2024.04 | [Link](https://arxiv.org/abs/2404.18861) | [Link](https://github.com/lx666666/Vision-Mamba-Survey) | Review of Mamba specifically for Computer Vision tasks (Image/Video). |
+| **Vision Mamba Taxonomy** | arXiv | 2024.05 | [Link](https://arxiv.org/abs/2405.04404) | [Link](https://github.com/Baidu/Vision-Mamba-Survey) | Detailed taxonomy of Mamba models in vision (Backbones & Applications). |
+| **SSM Sequence Survey** | arXiv | 2024.06 | [Link](https://arxiv.org/abs/2406.09062) | \ | Survey on recurrence and state-space modeling in the Transformer era. |
+| **A Survey of Mamba** | arXiv | 2024.08 | [Link](https://arxiv.org/abs/2408.01129) | \ | General survey covering architectures, efficient training, and hardware. |
+| **Mamba Architecture Survey**| arXiv | 2025.02 | [Link](https://arxiv.org/abs/2502.07161) | \ | Recent survey focusing on architectural advancements like bidirectional scanning. |
+| **From S4 to Mamba** | arXiv | 2025.03 | [Link](https://arxiv.org/abs/2503.18970) | \ | Traces the evolution from S4 to Mamba, S5, and Jamba. |
+
+### 2) Surveys in Medical Imaging 
+*Focus: Specific reviews of Mamba applied to medical image analysis.*
+
+| Title | Venue | Date | Paper | Code | Key Focus |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Survey of Mamba (Medical)**| arXiv | 2024.06 | [Link](https://arxiv.org/abs/2406.02642) | \ | The first comprehensive survey dedicated to medical Mamba architectures. |
+| **Mamba-in-Medical-Imaging** | arXiv | 2024.10 | [Link](https://arxiv.org/abs/2410.02362) | [Link](https://github.com/1500355469/Mamba-in-Medical-Imaging) | **[This Repo]** A systematic review of papers, code, and datasets in medical imaging. |
 
 
 <a name="datasets"></a>
