@@ -34,11 +34,12 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **HiPPO** | NeurIPS 2020 | 2020.08 | [Link](https://arxiv.org/abs/2008.07669) | [Link](https://github.com/HazyResearch/hippo-code) | **[Precursor]** Recurrent Memory with Optimal Polynomial Projections; the math theory behind S4/Mamba. |
-| **S4** | NeurIPS 2021 | 2021.11 | [Link](https://arxiv.org/abs/2111.00396) | [Link](https://github.com/HazyResearch/state-spaces) | **[Precursor]** Structured State Spaces for Long-Range Sequence Modeling; the first efficient SSM. |
-| **Mamba** | arXiv 2023 | 2023.12 | [Link](https://arxiv.org/abs/2312.00752) | [Link](https://github.com/state-spaces/mamba) | **[Foundation]** The original Selective State Space Model with linear complexity. |
-| **Vim** | ICML 2024 | 2024.01 | [Link](https://arxiv.org/abs/2401.09417) | [Link](https://github.com/hustvl/Vim) | **[Vision Backbone]** Vision Mamba; bidirectional blocks for visual representation. |
-| **VMamba** | arXiv 2024 | 2024.01 | [Link](https://arxiv.org/abs/2401.10166) | [Link](https://github.com/MzeroMiko/VMamba) | **[Vision Backbone]** Visual State Space Model with 2D Selective Scan (SS2D). |
+| **HiPPO** | NeurIPS 2020 | [Link](https://arxiv.org/abs/2008.07669) | [Link](https://github.com/HazyResearch/hippo-code) | **[Precursor]** Recurrent Memory with Optimal Polynomial Projections; the math theory behind S4/Mamba. |
+| **S4** | NeurIPS 2021 | [Link](https://arxiv.org/abs/2111.00396) | [Link](https://github.com/HazyResearch/state-spaces) | **[Precursor]** Structured State Spaces for Long-Range Sequence Modeling; the first efficient SSM. |
+| **Mamba** | arXiv 2023 | [Link](https://arxiv.org/abs/2312.00752) | [Link](https://github.com/state-spaces/mamba) | **[Foundation]** The original Selective State Space Model with linear complexity. |
+| **VMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.10166) | [Link](https://github.com/MzeroMiko/VMamba) | **[Vision Backbone]** Visual State Space Model with 2D Selective Scan (SS2D). |
+| **Vim** | ICML 2024 | [Link](https://arxiv.org/abs/2401.09417) | [Link](https://github.com/hustvl/Vim) | **[Vision Backbone]** Vision Mamba; bidirectional blocks for visual representation. |
+
 
 <a name="segmentation"></a>
 ## 1. Segmentation
@@ -155,7 +156,7 @@ This repository corresponds to our survey paper:
 | Title | Venue | Date | Paper | Code | Key Focus |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Survey of Mamba (Medical)**| arXiv | 2024.06 | [Link](https://arxiv.org/abs/2406.02642) | \ | The first comprehensive survey dedicated to medical Mamba architectures. |
-| **Mamba-in-Medical-Imaging** | arXiv | 2024.10 | [Link](https://arxiv.org/abs/2410.02362) | [Link](https://github.com/1500355469/Mamba-in-Medical-Imaging) | **[This Repo]** A systematic review of papers, code, and datasets in medical imaging. |
+| **Mamba-in-Medical-Imaging** | arXiv | 2024.10 | [Link](https://arxiv.org/abs/2410.02362) | [Link](https://github.com/1500355469/Mamba-in-Medical-Imaging) | A systematic review of papers, code, and datasets in medical imaging. |
 
 
 <a name="datasets"></a>
