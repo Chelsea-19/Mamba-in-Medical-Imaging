@@ -29,7 +29,7 @@ This repository corresponds to our survey paper:
 
 ---
 <a name="fundation"></a>
-## 0. Fundation
+## 0. Fundation Models
 *Focus: The original theoretical foundations and vision backbones.* 
 
 | Model | Publication | Paper | Code | Description |
