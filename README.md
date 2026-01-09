@@ -41,12 +41,15 @@ This repository corresponds to our survey paper:
 | **LightM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05246) | [Link](https://github.com/MrBlankness/LightM-UNet) | Extremely lightweight design. |
 | **UltraLight VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.20035v1) | [Link](https://github.com/wurenkai/UltraLight-VM-UNet) | While maintaining high performance, the parameters are significantly reduced. |
 | **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Collaborative cross-supervision mechanisms enhance the performance of weak supervision. |
+| **ProMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.13660) | \ | Prompt-Mamba for polyp segmentation. |
 | **SegMamba** | MICCAI 2024 | [Link](https://papers.miccai.org/miccai-2024/676-Paper0663.html) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with Tri-orientational Spatial Scan for volumetric data. |
 | **2DMamba** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html) | [Link](https://github.com/AtlasAnalyticsLab/2DMamba) | Focused on 2D segmentation tasks. |
 | **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
 | **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea/blob/main/README.md) | A "Global-to-Local" sequence enhancement mechanism is proposed. |
 | **Vivim** | IEEE-TCSVT 2025 | [Link](https://ieeexplore.ieee.org/document/10973086) | [Link](https://github.com/scott-yjyang/Vivim) | The effectiveness in medical video segmentation was verified. |
 | **TIFCMamba** | MICCAI 2025 | [Link](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_29) | [Link](https://github.com/PZalio/TIFCMamba) | Using text descriptions to assist image segmentation. |
+| **H-vmunet** | NEUCOM 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231225001195?via%3Dihub) | [Link](https://github.com/wurenkai/H-vmunet) | High-order Vision Mamba UNet for Medical Image Segmentation. |
+
 
 <a name="classification"></a>
 ## 2. Classification
@@ -112,6 +115,8 @@ This repository corresponds to our survey paper:
 | **I2I-Mamba** | arXiv 2024 | [Link](https://arxiv.org/html/2405.14022v4) | [Link](https://github.com/icon-lab/I2I-Mamba) | Image-to-Image translation (e.g., MRI to CT). |
 | **VM-DDPM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.05667) | \ | Balance structural texture consistency and maintain linear computational complexity. |
 | **MambaDFuse** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.08406) | [Link](https://github.com/Lizhe1228/MambaDFuse) | State-of-the-art (SOTA) image fusion performance, outperforming CNN and Transformer. |
+| **ClinicalMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05795) | [Link](https://github.com/whaleloops/ClinicalMamba) | A Generative Clinical Language Model on Longitudinal Clinical Notes. |
+| **FusionMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2404.09498) | [Link](https://github.com/millieXie/FusionMamba) | Dynamic Feature Enhancement for Multimodal Image Fusion with Mamba. |
 | **MD-Dose** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822581) | [Link](https://github.com/LinjieFu-U/mamba_dose) | Superior to existing methods, this method can locate the dose region of OARs. |
 | **RRG-Mamba** | IJCAI 2025 | [Link](https://www.ijcai.org/proceedings/2025/824) | [Link](https://github.com/Eleanorhxd/RRG-Mamba) | Radiology report generation. |
 | **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology report generation. |
