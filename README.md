@@ -54,24 +54,24 @@ This repository corresponds to our survey paper:
 | **LMa-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.07332v1) | [Link](https://github.com/NimoXW/LMa-UNet) | Large window-based Mamba UNet aiming to surpass self-attention in global modeling. |
 | **LightM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05246) | [Link](https://github.com/MrBlankness/LightM-UNet) | Lightweight Mamba-assisted UNet with significantly reduced parameters (1.87M). |
 | **UltraLight VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.20035v1) | [Link](https://github.com/wurenkai/UltraLight-VM-UNet) | Parallel vision Mamba with extremely low parameter count (0.049M) for skin lesion segmentation. |
-| **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Visual Mamba enhancement for scribble-based/weakly supervised segmentation[cite: 233]. |
-| **Semi-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.07245) | URL | Pixel-level contrastive cross-supervised framework for semi-supervised segmentation. |
-| **VM-UNetV2** | arXiv 2024 | - | URL | Rethinking Vision Mamba UNet for medical image segmentation. |
-| **ProMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.13660) | - | Prompt-Mamba specialized for polyp segmentation. |
-| **H-vmunet** | NEUCOM 2025 | - | URL | High-order Vision Mamba UNet. |
-| **Mamba-HUNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.17432) | - | Integrates Mamba with Hierarchical Upsampling Network for multiple sclerosis lesion segmentation. |
-| **ViM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.07705) | URL | Vision Mamba backbone adapted for biomedical segmentation (distinct from VM-UNet). |
-| **SliceMamba** | arXiv 2024 | - | - | SliceMamba with neural architecture search (NAS) for efficient segmentation. |
+| **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Visual Mamba enhancement for scribble-based/weakly supervised segmentation. |
+| **Semi-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.07245) | [Link](https://github.com/ziyangwang007/Mamba-UNet/blob/main/code/train_Semi_Mamba_UNet.py) | Pixel-level contrastive cross-supervised framework for semi-supervised segmentation. |
+| **VM-UNetV2** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.09157) | [Link](https://github.com/nobodyplayer1/VM-UNetV2) | Rethinking Vision Mamba UNet for medical image segmentation. |
+| **ProMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.13660) | \ | Prompt-Mamba specialized for polyp segmentation. |
+| **H-vmunet** | NEUCOM 2025 | [Link](https://www.sciencedirect.com/science/article/pii/S0925231225001195) | [Link](https://github.com/wurenkai/H-vmunet) | High-order Vision Mamba UNet. |
+| **Mamba-HUNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.17432) | \ | Integrates Mamba with Hierarchical Upsampling Network for multiple sclerosis lesion segmentation. |
+| **ViM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.07705) | \ | Vision Mamba backbone adapted for biomedical segmentation (distinct from VM-UNet). |
+| **SliceMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2407.08481) | [Link](https://github.com/fAnchao1/SliceMamba) | SliceMamba with neural architecture search (NAS) for efficient segmentation. |
 | **SegMamba** | MICCAI 2024 | [Link](https://arxiv.org/abs/2401.13560) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with long-range sequential modeling for volumetric data. |
-| **Mamba Vessel Net** | ACM MMAsia 2024 | - | - | Hybrid CNN-Mamba architecture for 3D Cerebrovascular Segmentation. |
-| **Mamba Vessel Net++** | arXiv 2025 | - | URL | Improved hybrid architecture achieving high Dice on CVC-ClinicDB and IXI MRA. |
-| **DCMamba** | arXiv 2025 | - | URL | Dual Correlation-Aware Mamba for Microvascular Obstruction Identification. |
-| **Hybrid-Mamba** | arXiv 2025 | - | - | A Dual-Domain Mamba for 3D Medical Image Segmentation. |
-| **Mamba Snake (UMIS)** | ACM MM 2025 | - | - | Unified Medical Image Segmentation with State Space Modeling and Snake Evolution Blocks. |
+| **Mamba Vessel Net** | ACM MMAsia 2024 | [Link](https://dl.acm.org/doi/10.1145/3696409.3700231) | [Link](https://github.com/CC0117/MambaVesselNet) | Hybrid CNN-Mamba architecture for 3D Cerebrovascular Segmentation. |
+| **Mamba Vessel Net++** | arXiv 2025 | [Link](https://arxiv.org/pdf/2507.19931) | [Link](https://github.com/CC0117/MambaVesselNet) | Improved hybrid architecture achieving high Dice on CVC-ClinicDB and IXI MRA. |
+| **DCMamba** | arXiv 2025 | [Link](https://papers.miccai.org/miccai-2025/0258-Paper0386.html#:~:text=The%20paper%20proposes%20a%20novel%20method%2C%20Dual%20Correlation-aware,%28MVO%29%20in%20non-contrast%20cine%20cardiac%20magnetic%20resonance%20%28CMR%29.) | [Link](https://github.com/code-koukai/Dual-Correlation-Mamba) | Dual Correlation-Aware Mamba for Microvascular Obstruction Identification. |
+| **Hybrid-Mamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2509.14609) | \ | A Dual-Domain Mamba for 3D Medical Image Segmentation. |
+| **Mamba Snake (UMIS)** | ACM MM 2025 | [Link](https://dl.acm.org/doi/10.1145/3746027.3755148) | \ | Unified Medical Image Segmentation with State Space Modeling and Snake Evolution Blocks. |
 | **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework for segmentation and landmark detection. |
-| **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea) | Mamba-based Framework with Global-to-Local Sequence Augmentation[cite: 237]. |
-| **Vivim** | IEEE-TCSVT 2025 | [Link](https://ieeexplore.ieee.org/document/10973086) | [Link](https://github.com/scott-yjyang/Vivim) | Video Vision Mamba for medical video segmentation (e.g., ultrasound)[cite: 237]. |
-| **TIFC-Mamba** | MICCAI 2025 | - | [Link](https://github.com/PZalio/TIFCMamba) | Weakly Supervised Segmentation with Cross-Modal Textual Information. |
+| **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea) | Mamba-based Framework with Global-to-Local Sequence Augmentation. |
+| **Vivim** | IEEE-TCSVT 2025 | [Link](https://ieeexplore.ieee.org/document/10973086) | [Link](https://github.com/scott-yjyang/Vivim) | Video Vision Mamba for medical video segmentation (e.g., ultrasound). |
+| **TIFCMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/0523-Paper0648.html) | [Link](https://github.com/PZalio/TIFCMamba) | Weakly Supervised Segmentation with Cross-Modal Textual Information. |
 
 
 <a name="classification"></a>
@@ -83,11 +83,17 @@ This repository corresponds to our survey paper:
 | **MedMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.03849) | [Link](https://github.com/YubiaoYue/MedMamba) | General purpose backbone for medical classification. |
 | **CMViM** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.16520) | \ | Contrastive learning aligns multimodal representations. |
 | **MamMIL** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822552) | [Link](https://github.com/Vison307/MamMIL) | Less GPU memory & Better than Transformer-based method. |
+| **MambaMIL** | MICCAI 2024 | [Link](https://arxiv.org/abs/2403.06346) | [Link](https://github.com/isyangshu/MambaMIL) | Enhancing long sequence modeling with sequence reordering (SR-Mamba). |
 | **MedMambaLite** | arXiv 2025 | [Link](https://arxiv.org/abs/2508.05049) | \ | Lightweight version for mobile/edge devices. |
+| **2DMamba** | CVPR 2025 | [Link](https://arxiv.org/abs/2404.03058) | [Link](https://github.com/AtlasAnalyticsLab/2DMamba) | Efficient 2D Selective Scan for WSI representation. |
 | **GMMamba** | ICCV 2025 | [Link](https://openaccess.thecvf.com/content/ICCV2025/html/Zheng_GMMamba_Group_Masking_Mamba_for_Whole_Slide_Image_Classification_ICCV_2025_paper.html) | [Link](https://github.com/titizheng/GMMamba) | WSI analysis with position-aware mechanisms. |
 | **XFMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/1023-Paper1773.html) | [Link](https://github.com/XZheng0427/XFMamba) | Multi-view fusion for X-ray/MRI. |
 | **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
 | **DermaMamba** | Bioengineering 2025 | [Link](https://www.mdpi.com/2306-5354/12/10/1030) | [Link](https://github.com/hnkhai25/DermoMamba) | Dual-Branch Design combining the CNN and Mamba. |
+| **KMG-Mamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/0474-Paper3827.html) | \ | Knowledge-Guided Multi-scale Graph Mamba for WSI. |
+| **BSDA-Mamba** | CMC 2025 | [Link](https://www.techscience.com/cmc/v83n3/60999) | [Link](https://github.com/YaoyaoZhu19/BSDA) | Mamba with Bayesian Random Semantic Data Augmentation. |
+| **HGMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2505.17457) | \ | Hypergraph (HGNN) + SSM for WSI understanding. |
+| **M3amba** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/html/Zheng_M3amba_Memory_Mamba_is_All_You_Need_for_Whole_Slide_CVPR_2025_paper.html) | [Link](https://github.com/titizheng/M3amba) | Memory Mamba with Dynamic Memory Bank & MoE. |
 
 <a name="detection"></a>
 ## 3. Detection
@@ -95,11 +101,13 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **MambaAD** | NeurIPS 2024 | [Link](https://lewandofskee.github.io/projects/MambaAD/) | [Link](https://github.com/lewandofskee/MambaAD) | Unsupervised anomaly detection (Global + Local). |
 | **MambaMIL** | MICCAI 2024 | [Link](https://arxiv.org/abs/2403.06800) | [Link](https://github.com/isyangshu/MambaMIL) | Effectively model long sequences and reduce computational complexity. |
-| **SP-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.02063) | [Link](https://github.com/JusperLee/SPMamba) | Self-supervised anomaly detection. |
 | **SpectMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2509.01080) | [Link](https://github.com/Tinkle01/SpectMamba) | Uses frequency domain learning for small target detection. |
-| **CellMamba** | arXiv 2025 | [Link](https://github.com/ChengAoShen/CellMamba) | [Link](https://arxiv.org/abs/2512.21803) | Dense cell detection in pathology images. |
+| **CellMamba** | BMVC 2025 | [Link](https://arxiv.org/abs/2512.21803) | [Link](https://github.com/ChengAoShen/CellMamba) | Dense cell detection in pathology images (Adaptive Head). |
+| **U-Mamba** | MICCAI 2024 | [Link](https://arxiv.org/abs/2401.04722) | [Link](https://github.com/bowang-lab/U-Mamba) | General-purpose medical image segmentation with hybrid CNN-Mamba. |
+| **SegMamba** | MICCAI 2024 | [Link](https://arxiv.org/abs/2401.13560) | [Link](https://github.com/ge-xing/SegMamba) | 3D medical image segmentation with long-range dependency modeling. |
+| **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Pure Mamba-based UNet for medical image segmentation. |
+| **Mamba-YOLO** | AAAI 2025 | [Link](https://arxiv.org/abs/2406.05835) | [Link](https://github.com/HZAI-ZJNU/Mamba-YOLO) | SSM-based object detection baseline often compared with CellMamba. |
 
 
 <a name="reconstruction--enhancement"></a>
@@ -109,13 +117,20 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **DenoMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2409.13094) | [Link](https://github.com/icon-lab/DenoMamba?tab=readme-ov-file) | Image denoising framework. |
-| **MambaMIR** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.18451) | \ | Dynamic weights and linear complexity. |
-| **FD-Vision Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.06378) | [Link](https://github.com/zzr-idam/FDV-NET) | Linear complexity, global receptive field. |
-| **MambaRecon** | WACV 2025 | [Link](https://openaccess.thecvf.com/content/WACV2025/html/Korkmaz_MambaRecon_MRI_Reconstruction_with_Structured_State_Space_Models_WACV_2025_paper.html) | [Link](https://github.com/yilmazkorkmaz1/MambaRecon?tab=readme-ov-file) | MRI reconstruction with linear complexity (O(N)). |
-| **CT-Mamba** | CMIG 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0895611125001041?via%3Dihub) | [Link](https://github.com/linxuan-li/CT-Mamba?tab=readme-ov-file) | Low-dose CT denoising. |
-| **MMR-Mamba** | MIA 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S1361841525000969) | [Link](https://github.com/zoujing925/MMR-Mamba?tab=readme-ov-file) | Multi-modal MRI reconstruction. |
-| **UltrasOM** | CMPB 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0169260725002603?via%3Dihub) | \ | Ultrasound video analysis & motion estimation. |
-| **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Real-time detection of scanning errors and guidance for doctors to make corrections. |
+| **MambaMIR** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.18451) | \ | Joint medical image reconstruction and uncertainty estimation. |
+| **FD-Vision Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.06378) | [Link](https://github.com/zzr-idam/FDV-NET) | Endoscopic exposure correction. |
+| **MambaRoll** | arXiv 2024 | [Link](https://arxiv.org/abs/2412.09331) | [Link](https://github.com/icon-lab/MambaRoll) | Physics-driven autoregressive SSM for MRI/CT reconstruction. |
+| **MambaMDN** | arXiv 2025 | [Link](https://arxiv.org/abs/2412.19095) | \ | Multi-contrast MRI reconstruction with modality disentanglement. |
+| **DH-Mamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2501.08163) | [Link](https://github.com/XiaoMengLiLiLi/DH-Mamba) | Dual-domain hierarchical state space models for MRI reconstruction. |
+| **LangMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2507.06140) | [Link](https://github.com/hao1635/LangMamba) | Language-driven Mamba framework for Low-dose CT denoising. |
+| **MambaRecon** | WACV 2025 | [Link](https://openaccess.thecvf.com/content/WACV2025/html/Korkmaz_MambaRecon_MRI_Reconstruction_with_Structured_State_Space_Models_WACV_2025_paper.html) | [Link](https://github.com/yilmazkorkmaz1/MambaRecon?tab=readme-ov-file) | MRI reconstruction with structured state space models. |
+| **CT-Mamba** | CMIG 2025 | [Link](https://doi.org/10.1016/j.compmedimag.2024.102595) | [Link](https://github.com/linxuan-li/CT-Mamba?tab=readme-ov-file) | Hybrid convolutional SSM for Low-dose CT denoising. |
+| **LMO** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/papers/Li_LMO_Linear_Mamba_Operator_for_MRI_Reconstruction_CVPR_2025_paper.pdf) | [Link](https://github.com/weili419/LMO) | Linear Mamba Operator for MRI reconstruction. |
+| **MMR-Mamba** | MIA 2025 | [Link](https://doi.org/10.1016/j.media.2025.103549) | [Link](https://github.com/zoujing925/MMR-Mamba?tab=readme-ov-file) | Multi-modal MRI reconstruction with spatial-frequency fusion. |
+| **DASMamba** | MICCAI 2025 | [Link](https://papers.miccai.org/miccai-2025/0243-Paper0433.html) | [Link](https://github.com/cc111mp/DASMamba-MedIR) | CT denoising/restoration using Directional Adaptive Shuffle Mamba. |
+| **SEMambaSR** | PRL 2025 | [Link](https://doi.org/10.1016/j.patrec.2024.11.006) | \ | Super-resolution via self-prior guided Mamba network. |
+| **UltrasOM** | CMPB 2025 | [Link](https://doi.org/10.1016/j.cmpb.2024.108843) | \ | 3D freehand ultrasound reconstruction using optical flow. |
+| **UltrasODM** | AAAI 2026 | [Link](https://arxiv.org/abs/2512.07756) | [Link](https://github.com/AnandMayank/UltrasODM) | Dual-stream optical flow Mamba for ultrasound reconstruction. |
 
 <a name="registration"></a>
 ## 5. Registration
@@ -126,7 +141,11 @@ This repository corresponds to our survey paper:
 | **RegMamba** | MDPI 2024 | [Link](https://www.mdpi.com/2079-9292/13/16/3305) | [Link](https://github.com/Hexu00/Regmamba) | Hybrid CNN-Mamba for large deformation handling. |
 | **VMambaMorph** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.05105) | [Link](https://github.com/ziyangwang007/VMambaMorph) | 3D deformable registration with cross-scan mechanism. |
 | **MambaMorph** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.13934) | [Link](https://github.com/Guo-Stone/MambaMorph) | Efficient registration baseline. |
-| **MambaNetLK** | arXiv 2025 | [Link](https://arxiv.org/abs/2511.00260) | [Link](https://github.com/mobarakol/MambaNetLK) | Point cloud registration for surgical navigation. |
+| **VMANet** | RICAI 2024 | [Link](https://ieeexplore.ieee.org/document/10911682) | \ | VMamba + Dual-Stream Attention + Spatial Transformer for Lung 4DCT. |
+| **MS-VMANet** | ITC 2025 | [Link](https://itc.ktu.lt/index.php/ITC/article/view/40153) | \ | Multi-scale VMamba attention network for pulmonary ventilation assessment. |
+| **MambaNetLK** | arXiv 2025 | [Link](https://arxiv.org/abs/2511.00260) | [Link](https://github.com/mobarakol/MambaNetLK) | Point cloud registration for surgical navigation (Correspondence-free). |
+| **DMCR** | EMBC 2025 | [Link](https://ieeexplore.ieee.org/document/11253168) | \ | Dual-Stream Mamba with Contrastive Representation for multimodal registration. |
+| **Jabber et al.** | J. Big Data 2025 | [Link](https://link.springer.com/article/10.1186/s40537-025-01258-8) | \ | Mamba-optimized transformer with dynamic deformation fields. |
 
 <a name="generation"></a>
 ## 6. Generation & Multimodal
@@ -135,15 +154,17 @@ This repository corresponds to our survey paper:
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **DiM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.14224) | [Link](https://github.com/tyshiwo1/DiM-DiffusionMamba) | Efficient high-res generation, replaces Attention in U-Net. |
-| **I2I-Mamba** | arXiv 2024 | [Link](https://arxiv.org/html/2405.14022v4) | [Link](https://github.com/icon-lab/I2I-Mamba) | Image-to-Image translation (e.g., MRI to CT). |
-| **VM-DDPM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.05667) | \ | Balance structural texture consistency and maintain linear computational complexity. |
-| **MambaDFuse** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.08406) | [Link](https://github.com/Lizhe1228/MambaDFuse) | State-of-the-art (SOTA) image fusion performance, outperforming CNN and Transformer. |
+| **I2I-Mamba** | arXiv 2024 | [Link](https://arxiv.org/html/2405.14022v4) | [Link](https://github.com/icon-lab/I2I-Mamba) | Multi-modal Image Synthesis (e.g., MRI to CT). |
+| **VM-DDPM** | arXiv 2024 | [Link](https://arxiv.org/abs/2405.05667) | \ | Medical Image Synthesis using Vision Mamba Diffusion. |
+| **MambaDFuse** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.08406) | [Link](https://github.com/Lizhe1228/MambaDFuse) | Multi-modality Fusion (MRI-CT, Infrared-Visible). |
 | **ClinicalMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05795) | [Link](https://github.com/whaleloops/ClinicalMamba) | A Generative Clinical Language Model on Longitudinal Clinical Notes. |
-| **FusionMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2404.09498) | [Link](https://github.com/millieXie/FusionMamba) | Dynamic Feature Enhancement for Multimodal Image Fusion with Mamba. |
-| **MD-Dose** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822581) | [Link](https://github.com/LinjieFu-U/mamba_dose) | Superior to existing methods, this method can locate the dose region of OARs. |
-| **RRG-Mamba** | IJCAI 2025 | [Link](https://www.ijcai.org/proceedings/2025/824) | [Link](https://github.com/Eleanorhxd/RRG-Mamba) | Radiology report generation. |
-| **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology report generation. |
-
+| **ClinicalFMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2501.00001) | [Link](https://github.com/simonZhou86/clinicalfmamba) | Multi-modal Neuroimage Fusion (2D/3D). |
+| **FusionMamba** | arXiv 2025 | [Link](https://arxiv.org/abs/2404.09498) | [Link](https://github.com/millieXie/FusionMamba) | Multi-modal Image Fusion with Dynamic Feature Enhancement. |
+| **CMI-MTL** | arXiv 2025 | [Link](https://arxiv.org/abs/2511.01357) | [Link](https://github.com/BioMedIA-repo/CMI-MTL) | Medical Visual Question Answering (Med-VQA). |
+| **EMRRG** | arXiv 2025 | [Link](https://arxiv.org/abs/2510.16776) | [Link](https://github.com/Event-AHU/Medical_Image_Analysis?tab=readme-ov-file) | Generation (X-ray Report) using Vision Mamba + LLM. |
+| **MD-Dose** | IEEE-BIBM 2024 | [Link](https://ieeexplore.ieee.org/abstract/document/10822581) | [Link](https://github.com/LinjieFu-U/mamba_dose) | Radiation Dose Prediction. |
+| **RRG-Mamba** | IJCAI 2025 | [Link](https://www.ijcai.org/proceedings/2025/824) | [Link](https://github.com/Eleanorhxd/RRG-Mamba) | Radiology Report Generation. |
+| **R2Gen-Mamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/document/10980814) | [Link](https://github.com/YonghengSun1997/R2Gen-Mamba) | Radiology Report Generation. |
 <a name="reviews"></a>
 ## Review Papers
 ### 1) General Mamba & SSM Surveys 
