@@ -47,22 +47,31 @@ This repository corresponds to our survey paper:
 
 | Model | Publication | Paper | Code | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Baseline 2D Mamba-UNet integration. |
-| **U-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.04722) | [Link](https://github.com/bowang-lab/U-Mamba) | Hybrid CNN-Mamba architecture for general 2D/3D segmentation. |
-| **Swin-UMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.03302) | [Link](https://github.com/JiarunLiu/Swin-UMamba) | Highlights ImageNet pre-training for Mamba weights. |
-| **Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.05079) | [Link](https://github.com/ziyangwang007/Mamba-UNet) | Early exploration of VSS blocks in U-shape architecture. |
-| **LMa-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.07332v1) | [Link](https://github.com/NimoXW/LMa-UNet) | Global modeling capability is superior to self-attention mechanism. |
-| **LightM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05246) | [Link](https://github.com/MrBlankness/LightM-UNet) | Extremely lightweight design. |
-| **UltraLight VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.20035v1) | [Link](https://github.com/wurenkai/UltraLight-VM-UNet) | While maintaining high performance, the parameters are significantly reduced. |
-| **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Collaborative cross-supervision mechanisms enhance the performance of weak supervision. |
-| **ProMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.13660) | \ | Prompt-Mamba for polyp segmentation. |
-| **SegMamba** | MICCAI 2024 | [Link](https://papers.miccai.org/miccai-2024/676-Paper0663.html) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with Tri-orientational Spatial Scan for volumetric data. |
-| **2DMamba** | CVPR 2025 | [Link](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_2DMamba_Efficient_State_Space_Model_for_Image_Representation_with_Applications_CVPR_2025_paper.html) | [Link](https://github.com/AtlasAnalyticsLab/2DMamba) | Focused on 2D segmentation tasks. |
-| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework. |
-| **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea/blob/main/README.md) | A "Global-to-Local" sequence enhancement mechanism is proposed. |
-| **Vivim** | IEEE-TCSVT 2025 | [Link](https://ieeexplore.ieee.org/document/10973086) | [Link](https://github.com/scott-yjyang/Vivim) | The effectiveness in medical video segmentation was verified. |
-| **TIFCMamba** | MICCAI 2025 | [Link](https://link.springer.com/chapter/10.1007/978-3-032-04984-1_29) | [Link](https://github.com/PZalio/TIFCMamba) | Using text descriptions to assist image segmentation. |
-| **H-vmunet** | NEUCOM 2025 | [Link](https://www.sciencedirect.com/science/article/abs/pii/S0925231225001195?via%3Dihub) | [Link](https://github.com/wurenkai/H-vmunet) | High-order Vision Mamba UNet for Medical Image Segmentation. |
+| **VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.02491) | [Link](https://github.com/JCruan519/VM-UNet) | Baseline 2D Mamba-UNet integration based on VSS blocks. |
+| **U-Mamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2401.04722) | [Link](https://github.com/bowang-lab/U-Mamba) | Hybrid CNN-Mamba architecture designed for general 2D/3D biomedical segmentation. |
+| **Swin-UMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.03302) | [Link](https://github.com/JiarunLiu/Swin-UMamba) | Integrates Mamba with ImageNet-based pretraining for segmentation tasks. |
+| **Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.05079) | [Link](https://github.com/ziyangwang007/Mamba-UNet) | Pure visual Mamba UNet-like architecture for medical image segmentation. |
+| **LMa-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.07332v1) | [Link](https://github.com/NimoXW/LMa-UNet) | Large window-based Mamba UNet aiming to surpass self-attention in global modeling. |
+| **LightM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.05246) | [Link](https://github.com/MrBlankness/LightM-UNet) | Lightweight Mamba-assisted UNet with significantly reduced parameters (1.87M). |
+| **UltraLight VM-UNet** | arXiv 2024 | [Link](https://arxiv.org/html/2403.20035v1) | [Link](https://github.com/wurenkai/UltraLight-VM-UNet) | Parallel vision Mamba with extremely low parameter count (0.049M) for skin lesion segmentation. |
+| **Weak-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.10887) | [Link](https://github.com/ziyangwang007/Weak-Mamba-UNet) | Visual Mamba enhancement for scribble-based/weakly supervised segmentation[cite: 233]. |
+| **Semi-Mamba-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2402.07245) | URL | Pixel-level contrastive cross-supervised framework for semi-supervised segmentation. |
+| **VM-UNetV2** | arXiv 2024 | - | URL | Rethinking Vision Mamba UNet for medical image segmentation. |
+| **ProMamba** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.13660) | - | Prompt-Mamba specialized for polyp segmentation. |
+| **H-vmunet** | NEUCOM 2025 | - | URL | High-order Vision Mamba UNet. |
+| **Mamba-HUNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2403.17432) | - | Integrates Mamba with Hierarchical Upsampling Network for multiple sclerosis lesion segmentation. |
+| **ViM-UNet** | arXiv 2024 | [Link](https://arxiv.org/abs/2404.07705) | URL | Vision Mamba backbone adapted for biomedical segmentation (distinct from VM-UNet). |
+| **SliceMamba** | arXiv 2024 | - | - | SliceMamba with neural architecture search (NAS) for efficient segmentation. |
+| **SegMamba** | MICCAI 2024 | [Link](https://arxiv.org/abs/2401.13560) | [Link](https://github.com/ge-xing/SegMamba) | 3D Mamba with long-range sequential modeling for volumetric data. |
+| **Mamba Vessel Net** | ACM MMAsia 2024 | - | - | Hybrid CNN-Mamba architecture for 3D Cerebrovascular Segmentation. |
+| **Mamba Vessel Net++** | arXiv 2025 | - | URL | Improved hybrid architecture achieving high Dice on CVC-ClinicDB and IXI MRA. |
+| **DCMamba** | arXiv 2025 | - | URL | Dual Correlation-Aware Mamba for Microvascular Obstruction Identification. |
+| **Hybrid-Mamba** | arXiv 2025 | - | - | A Dual-Domain Mamba for 3D Medical Image Segmentation. |
+| **Mamba Snake (UMIS)** | ACM MM 2025 | - | - | Unified Medical Image Segmentation with State Space Modeling and Snake Evolution Blocks. |
+| **nnMamba** | IEEE-ISBI 2025 | [Link](https://ieeexplore.ieee.org/abstract/document/10980694) | [Link](https://github.com/lhaof/nnMamba) | Integration of Mamba into the nnU-Net framework for segmentation and landmark detection. |
+| **Mamba-Sea** | IEEE-TMI 2025 | [Link](https://ieeexplore.ieee.org/document/10980210) | [Link](https://github.com/orange-czh/Mamba-Sea) | Mamba-based Framework with Global-to-Local Sequence Augmentation[cite: 237]. |
+| **Vivim** | IEEE-TCSVT 2025 | [Link](https://ieeexplore.ieee.org/document/10973086) | [Link](https://github.com/scott-yjyang/Vivim) | Video Vision Mamba for medical video segmentation (e.g., ultrasound)[cite: 237]. |
+| **TIFC-Mamba** | MICCAI 2025 | - | [Link](https://github.com/PZalio/TIFCMamba) | Weakly Supervised Segmentation with Cross-Modal Textual Information. |
 
 
 <a name="classification"></a>
